@@ -36,7 +36,7 @@ app.post("/", function (req, res) {
   //we now create options, most imp is method->POST
   const options = {
     method: "POST",
-    auth: " sunaina:df06ea7080b4dbd4938c0f4e5f741ac2-us6",
+    auth: "sunaina:df06ea7080b4dbd4938c0f4e5f741ac2-us6",
   };
   //now we create our request
   const request = https.request(url, options, function (response) {
